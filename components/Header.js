@@ -17,6 +17,11 @@ export default function Header() {
           Client-Only
         </a>
       </Link>
+      <Link href="/mutation-only">
+        <a className={pathname === '/mutation-only' ? 'is-active' : ''}>
+          Mutation-Only
+        </a>
+      </Link>
       <style jsx>{`
         header {
           margin-bottom: 25px;
